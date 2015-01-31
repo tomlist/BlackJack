@@ -9,9 +9,9 @@ body{background:#00FFFF;text-align:center;}
 <img src="./resource/player_image.png" >
 <div class = "div1" style = "text-align:left">
 <br></br>
-<h>用户名：</h>
+<h>用户名：<span id = "name"></span></h>
 <br></br>
-<h>ID:</h>
+<h>ID: <span id = "ID"></span></h>
 </div>
 </div>
 <br/>
@@ -21,9 +21,13 @@ body{background:#00FFFF;text-align:center;}
 </div>
 
 <script>
-function jump_to_game()
+function init()
+{
+getJSON("resouce/player_info.json", function(data)
 {
 
+}
+)
 }
 </script>
 </body>

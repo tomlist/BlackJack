@@ -137,6 +137,17 @@ poker
 }
 
 
+5)数据存储
+使用json存储用户数据
+｛
+“player_info”:
+[
+{"ID":1234567890},
+{"name":"will smith"},
+{"image":"resource/player_image.png"}
+]
+｝
+
 6.开发环境
 开发语言：html5, js, css。
 代码管理：git
