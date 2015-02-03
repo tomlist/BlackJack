@@ -1,8 +1,8 @@
-£û
-¡°player_info¡±:
+{
+"player_info":
 [
 {"ID":1234567890},
 {"name":"will smith"},
 {"image":"resource/player_image.png"}
 ]
-£ý
+}
